@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom button component tests should render the custom button component with custom props 1`] = `
+<div>
+  <button
+    aria-label="Custom generic button to be used everywhere"
+    class="text-lg"
+    role="button"
+  >
+    <div>
+      Button text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Custom button component tests should render the custom button component with custom props and match the snapshot 1`] = `
+<div>
+  <button
+    aria-label="Custom generic button to be used everywhere"
+    class="text-lg"
+    role="button"
+  >
+    <div>
+      Button text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Custom button component tests should render the custom button component with default props 1`] = `
+<div>
+  <button
+    aria-label="Custom generic button to be used everywhere"
+    class=""
+    role="button"
+  />
+</div>
+`;
+
+exports[`Custom button component tests should render the custom button component with default props and match the snapshot 1`] = `
+<div>
+  <button
+    aria-label="Custom generic button to be used everywhere"
+    class=""
+    role="button"
+  />
+</div>
+`;

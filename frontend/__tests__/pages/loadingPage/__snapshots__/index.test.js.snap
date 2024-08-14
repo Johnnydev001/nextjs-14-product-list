@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading page tests should render the loading page 1`] = `
+<div>
+  <div
+    aria-live="assertive"
+    class="text-center flex justify-center fixed top-0 right-0  left-0 z-30 bg-zinc-100 text-black px-4 py-2 rounded-md text-md"
+    role="alert"
+  >
+    Loading products...
+  </div>
+</div>
+`;
+
+exports[`Loading products page tests should render the loading products page 1`] = `
+<div>
+  <div
+    aria-live="assertive"
+    class="text-center flex justify-center fixed top-0 right-0  left-0 z-30 bg-zinc-100 text-black px-4 py-2 rounded-md text-md"
+    role="alert"
+  >
+    Loading products...
+  </div>
+</div>
+`;
+
+exports[`Loading products page tests should render the loading products page and match snapshot 1`] = `
+<div>
+  <div
+    aria-live="assertive"
+    class="text-center flex justify-center fixed top-0 right-0  left-0 z-30 bg-zinc-100 text-black px-4 py-2 rounded-md text-md"
+    role="alert"
+  >
+    Loading products...
+  </div>
+</div>
+`;
