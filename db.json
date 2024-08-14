@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "id": "4567890sadas",
+      "name": "Iphone 13",
+      "type": "electronics",
+      "description": "Iphone 13 - used",
+      "imageUrl": "https://w.wallhaven.cc/full/x1/wallhaven-x1p7z3.jpg",
+      "status": "active",
+      "createdAt": "2024-04-08T16:22:16.024Z",
+      "updatedAt": "2024-04-08T16:27:59.074Z",
+      "prices": [
+        {
+          "id": "0987655",
+          "productId": "4567890sadas",
+          "description": "Iphone 13 - used",
+          "type": "electronics",
+          "name": "Iphone 13",
+          "trialPeriod": {
+            "interval": "day",
+            "frequency": 14
+          },
+          "unitPrice": {
+            "amount": "800",
+            "currencyCode": "USD"
+          },
+          "quantity": {
+            "minimum": 1,
+            "maximum": 100
+          },
+          "status": "active",
+          "createdAt": "2024-04-09T07:14:38.424504Z",
+          "updatedAt": "2024-04-09T07:15:53.950721Z"
+        }
+      ]
+    }
+  ]
+}
