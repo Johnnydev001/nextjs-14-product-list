@@ -27,7 +27,7 @@ export const CustomListHeaderButtons = () => {
     }, [router])
 
     useEffect(() => {
-        if (savedInputValue && savedInputValue[0].split('_')[0] === 'pro') {
+        if (savedInputValue.split('_')[0] === 'pro') {
             setIsValidProductInput(true)
         } else {
             setIsValidProductInput(false)
@@ -55,7 +55,7 @@ export const CustomListHeaderButtons = () => {
                     disabled={!isValidProductInput}
                     className={`${isValidProductInput ? 'hover:bg-[#03A982] text-white bg-[#004C3A] cursor-pointer': 'bg-zinc-400 text-black cursor-not-allowed'} flex gap-5 justify-between p-4 text-md rounded-md font-semibold whitespace-nowrap `}
                     onClick={handleSearch}>
-                    <p>Search {">"}</p>
+                    <p>Search</p>
 
                 </CustomButton></div>
 
