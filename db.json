@@ -1,10 +1,10 @@
 {
   "data": [
     {
-      "id": "pro_4567890sadas",
+      "id": "4567890sadas",
       "name": "Iphone 13",
       "type": "electronics",
-      "description": "Iphone 13 - used",
+      "description": "Iphone 13",
       "imageUrl": "https://w.wallhaven.cc/full/x1/wallhaven-x1p7z3.jpg",
       "status": "available",
       "createdAt": "2024-04-08T16:22:16.024Z",
@@ -12,7 +12,7 @@
       "prices": [
         {
           "id": "0987655",
-          "productId": "pro_4567890sadas",
+          "productId": "4567890sadas",
           "description": "Iphone 13 - used",
           "type": "electronics",
           "name": "Iphone 13",
@@ -31,14 +31,58 @@
           "status": "active",
           "createdAt": "2024-04-09T07:14:38.424504Z",
           "updatedAt": "2024-04-09T07:15:53.950721Z"
+        },
+        {
+          "id": "0987656",
+          "productId": "4567890sadas",
+          "description": "Iphone 13 - new",
+          "type": "electronics",
+          "name": "Iphone 13",
+          "trialPeriod": {
+            "interval": "day",
+            "frequency": 14
+          },
+          "unitPrice": {
+            "amount": "1200",
+            "currencyCode": "USD"
+          },
+          "quantity": {
+            "minimum": 1,
+            "maximum": 100
+          },
+          "status": "active",
+          "createdAt": "2024-04-09T07:14:38.424504Z",
+          "updatedAt": "2024-04-09T07:15:53.950721Z"
+        },
+        {
+          "id": "0987657",
+          "productId": "4567890sadas",
+          "description": "Iphone 13 - used",
+          "type": "electronics",
+          "name": "Iphone 13",
+          "trialPeriod": {
+            "interval": "day",
+            "frequency": 14
+          },
+          "unitPrice": {
+            "amount": "600",
+            "currencyCode": "USD"
+          },
+          "quantity": {
+            "minimum": 1,
+            "maximum": 10
+          },
+          "status": "active",
+          "createdAt": "2024-04-09T07:14:38.424504Z",
+          "updatedAt": "2024-04-09T07:15:53.950721Z"
         }
       ]
     },
     {
-      "id": "pro_6456546",
+      "id": "6456546",
       "name": "Samsung Phone",
       "type": "electronics",
-      "description": "Samsung phone - new",
+      "description": "Samsung phone",
       "imageUrl": "https://w.wallhaven.cc/full/4g/wallhaven-4g7q1q.jpg",
       "status": "pending",
       "createdAt": "2024-04-08T16:22:16.024Z",
@@ -46,7 +90,7 @@
       "prices": [
         {
           "id": "4535345",
-          "productId": "pro_6456546",
+          "productId": "6456546",
           "description": "Samsung phone - new",
           "type": "electronics",
           "name": "Samsung phone",
@@ -55,7 +99,7 @@
             "frequency": 14
           },
           "unitPrice": {
-            "amount": "800",
+            "amount": "230",
             "currencyCode": "USD"
           },
           "quantity": {
@@ -69,10 +113,10 @@
       ]
     },
     {
-      "id": "pro_4hfjadkc",
+      "id": "4hfjadkc",
       "name": "Iphone 13",
       "type": "electronics",
-      "description": "Windows phone - used",
+      "description": "Windows phone",
       "imageUrl": "https://w.wallhaven.cc/full/0p/wallhaven-0pl2d9.jpg",
       "status": "incoming",
       "createdAt": "2024-04-08T16:22:16.024Z",
@@ -80,7 +124,7 @@
       "prices": [
         {
           "id": "0987655",
-          "productId": "pro_4hfjadkc",
+          "productId": "4hfjadkc",
           "description": "Windows phone - used",
           "type": "electronics",
           "name": "Windows phone",
@@ -89,7 +133,7 @@
             "frequency": 14
           },
           "unitPrice": {
-            "amount": "800",
+            "amount": "344",
             "currencyCode": "USD"
           },
           "quantity": {

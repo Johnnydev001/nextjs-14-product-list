@@ -22,12 +22,10 @@ export const CustomListHeaderButtons = () => {
 
         }, [savedInputValue] )
 
-    const handleGoBack = useCallback(() => {
-        router.push('/')
-    }, [router])
+
 
     useEffect(() => {
-        if (savedInputValue.split('_')[0] === 'pro') {
+        if (savedInputValue) {
             setIsValidProductInput(true)
         } else {
             setIsValidProductInput(false)
@@ -37,13 +35,7 @@ export const CustomListHeaderButtons = () => {
 
 
     return (
-        <div className={'flex w-full items-center self-end justify-between'}>
-
-            <CustomButton
-                className={'self-start flex gap-5 justify-between p-4 text-md rounded-md font-semibold whitespace-nowrap hover:bg-[#03A982] text-white bg-[#004C3A]'}
-                onClick={handleGoBack}>
-                <p>Go back</p>
-            </CustomButton>
+        <div className={'content-end justify-end flex w-full items-center self-end gap-x-4'}>
 
             <div className={'flex gap-x-2 '}>
                 <div className="flex gap-2 p-2 items-center rounded-xl bg-slate-100">
