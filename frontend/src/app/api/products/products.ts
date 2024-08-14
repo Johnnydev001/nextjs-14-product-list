@@ -42,7 +42,7 @@ const mapProductsPricesFromAPIById = (productDataFromAPI: ProductDataType, produ
 
     const productsById: any[] = isListFilterable ?  productDataFromAPI?.data?.filter((element: { id: string; }) => element.id === productId ) : productDataFromAPI?.data || []
 
-    const productPrices = productsById?.map((item = {}, index: number) => item?.prices) || []
+    const productPrices = productsById?.map((item = {}) => item?.prices) || []
 
     return productPrices.flat().map((elem: ProductPriceFromAPIType ) : ProductPriceType => {
         return {
