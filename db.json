@@ -1,0 +1,150 @@
+{
+  "data": [
+    {
+      "id": "4567890sadas",
+      "name": "Iphone 13",
+      "type": "electronics",
+      "description": "Iphone 13",
+      "imageUrl": "https://w.wallhaven.cc/full/x1/wallhaven-x1p7z3.jpg",
+      "status": "available",
+      "createdAt": "2024-04-08T16:22:16.024Z",
+      "updatedAt": "2024-04-08T16:27:59.074Z",
+      "prices": [
+        {
+          "id": "0987655",
+          "productId": "4567890sadas",
+          "description": "Iphone 13 - used",
+          "type": "electronics",
+          "name": "Iphone 13",
+          "trialPeriod": {
+            "interval": "day",
+            "frequency": 14
+          },
+          "unitPrice": {
+            "amount": "800",
+            "currencyCode": "USD"
+          },
+          "quantity": {
+            "minimum": 1,
+            "maximum": 100
+          },
+          "status": "active",
+          "createdAt": "2024-04-09T07:14:38.424504Z",
+          "updatedAt": "2024-04-09T07:15:53.950721Z"
+        },
+        {
+          "id": "0987656",
+          "productId": "4567890sadas",
+          "description": "Iphone 13 - new",
+          "type": "electronics",
+          "name": "Iphone 13",
+          "trialPeriod": {
+            "interval": "day",
+            "frequency": 14
+          },
+          "unitPrice": {
+            "amount": "1200",
+            "currencyCode": "USD"
+          },
+          "quantity": {
+            "minimum": 1,
+            "maximum": 100
+          },
+          "status": "active",
+          "createdAt": "2024-04-09T07:14:38.424504Z",
+          "updatedAt": "2024-04-09T07:15:53.950721Z"
+        },
+        {
+          "id": "0987657",
+          "productId": "4567890sadas",
+          "description": "Iphone 13 - used",
+          "type": "electronics",
+          "name": "Iphone 13",
+          "trialPeriod": {
+            "interval": "day",
+            "frequency": 14
+          },
+          "unitPrice": {
+            "amount": "600",
+            "currencyCode": "USD"
+          },
+          "quantity": {
+            "minimum": 1,
+            "maximum": 10
+          },
+          "status": "active",
+          "createdAt": "2024-04-09T07:14:38.424504Z",
+          "updatedAt": "2024-04-09T07:15:53.950721Z"
+        }
+      ]
+    },
+    {
+      "id": "6456546",
+      "name": "Samsung Phone",
+      "type": "electronics",
+      "description": "Samsung phone",
+      "imageUrl": "https://w.wallhaven.cc/full/4g/wallhaven-4g7q1q.jpg",
+      "status": "pending",
+      "createdAt": "2024-04-08T16:22:16.024Z",
+      "updatedAt": "2024-04-08T16:27:59.074Z",
+      "prices": [
+        {
+          "id": "4535345",
+          "productId": "6456546",
+          "description": "Samsung phone - new",
+          "type": "electronics",
+          "name": "Samsung phone",
+          "trialPeriod": {
+            "interval": "day",
+            "frequency": 14
+          },
+          "unitPrice": {
+            "amount": "230",
+            "currencyCode": "USD"
+          },
+          "quantity": {
+            "minimum": 1,
+            "maximum": 100
+          },
+          "status": "active",
+          "createdAt": "2024-04-09T07:14:38.424504Z",
+          "updatedAt": "2024-04-09T07:15:53.950721Z"
+        }
+      ]
+    },
+    {
+      "id": "4hfjadkc",
+      "name": "Iphone 13",
+      "type": "electronics",
+      "description": "Windows phone",
+      "imageUrl": "https://w.wallhaven.cc/full/0p/wallhaven-0pl2d9.jpg",
+      "status": "incoming",
+      "createdAt": "2024-04-08T16:22:16.024Z",
+      "updatedAt": "2024-04-08T16:27:59.074Z",
+      "prices": [
+        {
+          "id": "0987655",
+          "productId": "4hfjadkc",
+          "description": "Windows phone - used",
+          "type": "electronics",
+          "name": "Windows phone",
+          "trialPeriod": {
+            "interval": "day",
+            "frequency": 14
+          },
+          "unitPrice": {
+            "amount": "344",
+            "currencyCode": "USD"
+          },
+          "quantity": {
+            "minimum": 1,
+            "maximum": 100
+          },
+          "status": "active",
+          "createdAt": "2024-04-09T07:14:38.424504Z",
+          "updatedAt": "2024-04-09T07:15:53.950721Z"
+        }
+      ]
+    }
+  ]
+}
