@@ -22,8 +22,6 @@ export const CustomListHeaderButtons = () => {
 
         }, [savedInputValue] )
 
-
-
     useEffect(() => {
         if (savedInputValue) {
             setIsValidProductInput(true)

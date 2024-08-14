@@ -10,8 +10,8 @@ export default async function PricesListPage ({params: {id = ''}}:{ params: {id:
     const pricesListsFromApi: ProductPriceType[] | undefined = await getProductPricesById(id, true);
 
     let pricesListHeaders: string[] = ['Product ID', 'Price Name', 'Price Description', 'Price Type', 'Price Amount'];
-    if (pricesListsFromApi) {
-        pricesListHeaders= Object.keys(pricesListsFromApi[0])?.map(key => splitCamelCaseString(key).toUpperCase())
+    if (pricesListsFromApi?.length) {
+        pricesListHeaders= Object?.keys(pricesListsFromApi[0])?.map(key => splitCamelCaseString(key).toUpperCase())
     }
 
     return (
