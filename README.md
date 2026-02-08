@@ -1,8 +1,5 @@
 # NextJS 14 Product Prices Filter App
 
-![Screenshot](assets/imgs/products.png)
-![Screenshot](assets/imgs/prices.png)
-
 ## Introduction
 This repository was made for learning purposes on how to create a product prices filtering application with NextJs 14 new App Router's API and following good practices, such as: separation of concerns, reusable components type safety, performance optimization (server side rendering, memoization, nextJS Image component), a11y, optional chaining, unit testing, good UI/UX.
 
